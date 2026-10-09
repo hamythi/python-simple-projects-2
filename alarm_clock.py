@@ -1,12 +1,6 @@
-#select time
-#current time
-#running stream
-#sound!
-
 from datetime import datetime, timedelta
 import tkinter as tk
 from tkinter import messagebox
-
 
 now = datetime.now()
 print(now)
@@ -33,31 +27,6 @@ root.mainloop()
 if now == my_time:
     button1.pack(pady = 20)
     button2.pack(pady = 40)
-
-
-    
-    
-    
-    
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ########################    
 # import tkinter as tk
