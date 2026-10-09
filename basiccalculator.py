@@ -1,5 +1,3 @@
-# basic calculator
-
 class Calculator():
     def plus(self):
         value1 = int(input("provide value 1: "))
