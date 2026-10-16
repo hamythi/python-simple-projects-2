@@ -1,6 +1,5 @@
-#transactions between accts, ledger (movement of transanction)
 #name, balance
-#empty and transfer to new acct United_Savings
+#empty and transfer to new savign acct 
 # select bank1
 # show balance of bank1
 # select bank2
