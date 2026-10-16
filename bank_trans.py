@@ -14,7 +14,7 @@
 # 1. The accounting system should take care of 5 types of accounts and also make transactions debit, credit based instead of simple increment decrement
 # 2. The ledger should be date range based
 
-bank_rec = {"chase": 1600, "wf": 4000, "wf_saving": 500, "boa": 2500, "united": 3400, "united_savings": 0}
+bank_rec = {"ew": 1600, "wf": 4000, "wf_saving": 500, "boa": 2500, "us": 3400, "ew_savings": 0}
 actions = ["send", "request", "exit", "history"]
 ledger = {} #trans_id, prior, result
 
