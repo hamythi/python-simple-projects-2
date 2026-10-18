@@ -1,6 +1,6 @@
 answer = "mondayy" #use .index to get index in string
 already = ["","","","","","", ""]
-wrong_guesses = 0
+wrong_guesses = 0 
 
 while "".join(already) != answer and wrong_guesses < 6:
     guess = input("Guess a character: ")
