@@ -11,7 +11,9 @@
 # avoid overdraft
 
 # 1. The accounting system should take care of 5 types of accounts and also make transactions debit, credit based instead of simple increment decrement
-# 2. The ledger should be date range based
+# rewrite to account for differnt acct type
+# 2. The ledger should be date range based, should be proper ledger, not just history
+# focus on designing the software, can use paper --> overall structure before code
 
 bank_rec = {"ew": 1600, "wf": 4000, "wf_saving": 500, "boa": 2500, "us": 3400, "ew_savings": 0}
 actions = ["send", "request", "exit", "history"]
